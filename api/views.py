@@ -7,8 +7,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .filters import MovimientoFilter
-
-
 # Create your views here.
 
 class CategoriaViewSet(viewsets.ModelViewSet):
